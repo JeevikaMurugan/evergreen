@@ -1,0 +1,66 @@
+/* src/styles/Home.css */
+.home {
+    padding: 20px;
+  }
+  
+  .hero {
+    background-image: url('path/to/hero-image.jpg'); /* Set hero background image */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust hero height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Set text color */
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn-primary {
+    background-color: #ff7f00; /* Set primary button color */
+    color: #fff; /* Set primary button text color */
+  }
+  
+  .btn-secondary {
+    background-color: #333; /* Set secondary button color */
+    color: #fff; /* Set secondary button text color */
+  }
+  
+  .featured-products, .about-us {
+    margin-top: 50px;
+  }
+  
+  .about-content {
+    text-align: center;
+  }
+  
+  .about-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
